@@ -1,11 +1,12 @@
 {
   "name": "preredner",
-  "version": "0.1",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "html-minifier": "^3.2.7",
     "prerender": "^5.2.2"
   }
 }

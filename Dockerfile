@@ -18,4 +18,4 @@ COPY . src/
 WORKDIR /src
 RUN npm install
 EXPOSE 3000
-CMD [ "pm2-runtime", "npm", "--", "start" ]
+CMD [ "dumb-init", "pm2-runtime", "npm", "--", "start" ]
