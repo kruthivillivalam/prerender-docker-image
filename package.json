@@ -1,0 +1,11 @@
+{
+  "name": "preredner",
+  "version": "0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "prerender": "^5.2.2"
+  }
+}
