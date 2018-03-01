@@ -17,4 +17,5 @@ RUN google-chrome-stable --no-sandbox --version > /opt/chromeVersion
 COPY . src/
 WORKDIR /src
 RUN npm install
+EXPOSE 3000
 CMD [ "pm2-runtime", "npm", "--", "start" ]
